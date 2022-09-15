@@ -26,7 +26,7 @@
 <div class="container ">
 <nav class ="nav">
     <a href="index.html" class="Logo">
-        <img src="https://document-export.canva.com/tb4w8/DAFDcBtb4w8/10/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20220806%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220806T233833Z&X-Amz-Expires=88246&X-Amz-Signature=f4eb6c1c300648f595803548fd10f7300af5635836e6676592912d7aad4987e7&X-Amz-SignedHeaders=host&response-expires=Mon%2C%2008%20Aug%202022%2000%3A09%3A19%20GMT" alt="">
+        <img src="./imagenes/Logo.jgp" alt="">
     </a>
   <h1>Itervelox</h1>
    <div class="hamburger-menu">
@@ -35,15 +35,11 @@
     </div>
     <ul class="nav-list">
 <li class="nav-item">
-    <a href="index.html" class="nav-link">Home</a>
+    <a href="index.php" class="nav-link">Inicio</a>
 </li><li class="nav-item">
-    <a href="#" class="nav-link">About</a>
+    <a href="About.html" class="nav-link">Sobre Nosotros</a>
 </li><li class="nav-item">
-    <a href="#" class="nav-link">Offers</a>
-</li><li class="nav-item">
-    <a href="#" class="nav-link">News</a>
-</li><li class="nav-item">
-    <a href="#" class="nav-link">Contact</a>
+    <a href="contact.php" class="nav-link">Contacto</a>
 </li>
 
 
@@ -110,8 +106,8 @@
         <section class="hotels">
             <div class="container">
                 <h5 class="section-head">
-                    <span class="heading">Explore</span>
-                    <span class="sub-heading">Our beatiful hotels</span>
+                    <span class="heading">Explora</span>
+                    <span class="sub-heading">nuestros hermosos hoteles</span>
                 </h5>
                 <div class="grid">
                     <div class="grid-item featured-hotels">
@@ -168,8 +164,8 @@
             <section class="rooms">
                 <div class ="container">
                     <h5 class="section-head">
-                        <span class="heading">Luxurious</span>
-            <span class="sub-heading">Affordable rooms</span>
+                        <span class="heading">Lujosas</span>
+            <span class="sub-heading">habitaciones asequibles</span>
                     </h5>
                     <div class="grid rooms-grid">
                         <div class="grid-item featured-rooms">
@@ -220,8 +216,8 @@
                     <section class="contact">
                     <div class="container">
                     <h5 class="section-head">
-                            <span class="heading">Contact</span>
-                                <span class="sub-heading">Get in touch with us</span>
+                            <span class="heading">Contactenos</span>
+                                <span class="sub-heading">ponte en contacto con nosotros</span>
                                     </h5>
                                     <div class="contact-content">
                                         <div class="traveler-wrap">
@@ -229,7 +225,7 @@
                     
                                         </div>
                     <form method="post" class="form contact-form">
-                        <h1>¡Suscribete!</h1>
+                        <h1>---------------</h1>
                         <div class="input-group"> 
                             <input type="text" name="name" placeholder="Nombre completo" required>
                             <span class="bar"></span>
@@ -248,12 +244,12 @@
                         </div> 
                         <input type="submit" name="register">
                         </form>
-                        <?php 
-    include("registrar.php");
-    ?>    
+            
             </div>
    </div>
-  
+   <?php 
+    include("registrar.php");
+    ?>    
  </section>
 </main>
 
@@ -261,7 +257,7 @@
         <div class="container">
             <div class="footer-content">
 <div class="social-media-wrap">
-<h4 class="footer-heading">Follow us</h4>
+<h4 class="footer-heading">Siguenos en nuestras redes</h4>
 <div class="social-media">
     <a href="" class="sm-link"><i class="fab fa-twitter"></i></a>
     <a href="" class="sm-link"><i class="fab fa-facebook-square"></i></a>
