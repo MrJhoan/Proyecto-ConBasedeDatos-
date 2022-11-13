@@ -1,5 +1,5 @@
 # ProyectoProgramacionenlaWeb-ConBasedeDatos-
-Itervelox es una página dedciada a la venta de habitaciones de hoteles en Colombia.
+Itervelox es una página dedicada a la venta de habitaciones de hoteles en Colombia.
 1. DESCARGAR xampp.
 2. Darle en "xampp-control.exe".
 3. Habilitamos Apache y MySQL.
